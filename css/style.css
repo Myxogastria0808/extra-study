@@ -285,6 +285,12 @@ body, html {
   font-size: 50px;
   padding-left: 15px;
 }
+.sublabel-h2 {
+  text-align: left;
+  margin-top: 0;
+  font-size: 40px;
+  padding-left: 15px;
+}
 .element-h3 {
   text-align: left;
   margin-top: 0;
@@ -304,11 +310,27 @@ body, html {
 .ja {
   font-family: 'BIZ UDPMincho', serif;
 }
-
-
-
-
-
+.ja-price {
+  font-family: 'Hina Mincho', serif;
+}
+.color-card {
+  color: rgb(173, 130, 0);
+}
+.color-medical {
+  color: rgb(0, 8, 97);
+}
+.color-movie {
+  color: rgb(95, 95, 95);
+}
+.color-english {
+  color: rgb(215, 0, 0);
+}
+.color-TOEIC {
+  color: rgb(12, 99, 0);
+}
+.color-highschool {
+  color: rgb(0, 127, 116);
+}
 
 
 
