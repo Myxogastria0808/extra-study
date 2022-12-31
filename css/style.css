@@ -293,10 +293,10 @@ body, html {
 }
 .content-p {
   text-align: left;
-  text-align: right;
   margin-top: 0;
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 15px;
+  padding-right: 15px;
 }
 .en {
   font-family: 'Raleway', sans-serif;
