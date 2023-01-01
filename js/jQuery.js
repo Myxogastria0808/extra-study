@@ -1,24 +1,10 @@
-$('[id^="nav-link-"]').on('click', function () {
-    $('.icon').toggleClass('open');
-    $('.sp-nav').slideToggle();
-  });
-  $('#sp-hamburger').on('click', function () {
-    $('.icon').toggleClass('open');
-    $('.sp-nav').slideToggle();
+jQuery(document).ready(function($){
+    $('.toggle-btn').on('click',function(){
+        $('.toggle-btn__line').toggleClass('active');
+        $('.global-nav').fadeToggle();
+    });
+    $('.a_mobile').on('click',function(){
+        $('.toggle-btn__line').toggleClass('active');
+        $('.global-nav').fadeToggle();
+    });
 });
-
-const hamburger = document.querySelector('.hamburger');
-const menu = document.querySelector('.menu-hamburger');
-
-hamburger.addEventListener('click', () => {
-    toggleClasses();
-});
-
-
-function toggleClasses() {
-	hamburger.classList.toggle('open');
-    menu.classList.toggle('open');
-}
-
-setTimeout(toggleClasses, 500);
-setTimeout(toggleClasses, 3000);

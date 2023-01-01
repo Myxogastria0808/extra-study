@@ -11,10 +11,10 @@ _window.on('scroll',function(){
     heroBottom = $('.title-h1').height();
     if(_window.scrollTop() > heroBottom){
         _header.addClass('transform');   
-    }
+}
     else{
         _header.removeClass('transform');   
-    }
+}
 });
  
 _window.trigger('scroll');
