@@ -329,7 +329,7 @@ span {
   margin-bottom: 0;
   font-size: 40px;
   padding-left: 15px;
-  padding-top: 75px;
+  padding-top: 105px;
   margin-top: -65px;
 }
 .element-h3 {
@@ -369,6 +369,12 @@ span {
 }
 .ja {
   font-family: 'BIZ UDPMincho', serif;
+}
+.ja-bold {
+  font-family: 'BIZ UDPMincho', serif;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .color-card {
   color: rgb(173, 130, 0);
@@ -547,7 +553,6 @@ span.title_span {
 .site-header{
   background: rgba(251, 250, 245, 0.485);
   display: flex;
-  /* padding: 60px 20px; */
   position: fixed;
   justify-content: space-between;
   width: 100%;
@@ -557,6 +562,15 @@ span.title_span {
 }
 .site-header.transform {
   background: rgb(251, 250, 245);
+}
+.PC-width {
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
 }
 .gnav {
   padding-right: 20px;
