@@ -375,6 +375,7 @@ span {
   font-weight: 700;
   padding-top: 15px;
   padding-bottom: 15px;
+  text-decoration: underline;
 }
 .color-card {
   color: rgb(173, 130, 0);
