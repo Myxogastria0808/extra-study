@@ -12,9 +12,39 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap" rel="stylesheet">
+  
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
   <title>Extra Study 英語オンライン塾</title>
 </head>
 <body>
+  <header class="site-header">
+    <a href="#">
+      <h1 class="site-logo">
+        <img src="./img/header.png" alt="Extra Study">
+      </h1>
+    </a>
+    <nav class="gnav">
+      <ul class="gnav__menu">
+        <li class="gnav__menu__item"><a class="en" href="#course">Courses</a></li>
+        <li class="gnav__menu__item"><a class="en" href="#price">Prices</a></li>
+        <li class="gnav__menu__item"><a class="en" href="">Registration</a></li>
+        <li class="gnav__menu__item"><a class="en" href="#contact">Contact</a></li>
+        <li class="gnav__menu__item"><a class="en" href="">Company</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+
   <div id="loader" class="shutter">
     <img id="loader" src="./img/label.png" alt="ロゴ" class="logo"/>
   </div>
@@ -46,10 +76,10 @@
     </div>
   </div>
 <!--Content starts-->
-<div class="wave-content university">
+<div class="wave-content">
   <h1 class="title-h1 en">Extra Study</h1>
   <br>
-  <h2 class="title-h2 ja">
+  <h2 class="title-h2-course ja" id="course">
     <span>生徒一人一人に</span><span>寄り添う個別指導</span>
   </h2>
   <p class="content-p-top ja">
@@ -60,7 +90,7 @@
      実際の授業は書画カメラを用いるので効率的な答案添削が実現します。
   </p>
   <div class="body-width">
-    <a href="#university" class="card-archive card-color">
+    <a href="#university" class="card-archive university">
       <div class="overlay"></div>
       <div class="circle">
         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -144,7 +174,7 @@
       予備校で三宮・天王寺・梅田各校舎で「東大クラス」(浪人生・高3生)を4年連続で担当した経験などを
       通して従来のクラス指導の英語教育に疑問を持ち、自身の理想を追求し始める。
     </p>
-    <h1 class="title-h2 ja"><span>料金形体 ＆</span><span>&nbsp;講座案内</span></h1>
+    <h1 class="title-h2-price ja" id="price"><span>料金形体 ＆</span><span>&nbsp;講座案内</span></h1>
     <p class="content-p-price ja">＊場合により別途，過去問などの市販教材を購入頂く場合があります</p>
     <h2 class="sublabel-h2 color-card ja" id="university">大学受験</h2>
     <p class="content-p-price ja">1回80分 : ￥10,000・・・ 週1回 (月4回) から可能</p>
@@ -183,6 +213,17 @@
       灘や西大和など最難関の高校まで個人の志望校に応じて対応します。
       本質的な英語力を鍛えつつ、過去問を徹底分析し、出題意図を丁寧に確認することで本当の意味での対策を実施します。
     </p>
+    <div class="padding-contact"></div>
+    <h2 class="title-h2-contact ja" id="contact">
+      お問い合わせ
+    </h2>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsMUY3NrIfZQLk72_n9UuZuxQPNlQRrjsrfFVuVgSPm9ldUg/viewform?embedded=true" width="100%" height="550" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+
+
+
+
+
+
   </div>
   <!-- <div class="item item_top_slide item01">
     <div class="top_title">
@@ -236,5 +277,7 @@
   </div> -->
 </div>
 <!--Content ends-->
+<script src="./js/script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 </body>
 </html>
