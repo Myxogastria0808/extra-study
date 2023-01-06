@@ -43,7 +43,7 @@ span {
   position:relative;
   text-align:center;
   /* background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); */
-  background-image: url(../img/992f30d35218f938.png);
+  background-image: url(../img/top.webp);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -451,12 +451,64 @@ span {
  }
 }
 
+/*teacher*/
+.arihori-container {
+  display: flex;
+  margin-right: 15px;
+}
+.arihori-item {
+  width: 100%;
+  max-width: 512px;
+}
+.arihori-img-PC {
+  height: 100%;
+  background-image: url(../img/arihori.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.arihori-img-mobile {
+  height: 300px;
+  background-image: url(../img/arihori.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.title-h3-mobile {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 50px;
+  font-size: 25px;
+  padding-left: 15px;
+}
+.label-h2-mobile {
+  text-align: center;
+  margin-top: 0;
+  font-size: 50px;
+  padding-left: 15px;
+}
+.element-h3 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 
 
 
 
-
+@media screen and (max-width: 610px) {
+  .arihori-PC {
+    display: none;
+  }
+}
+@media screen and (min-width: 610px) {
+  .arihori-mobile {
+    display: none;
+  }
+}
 
 
 
