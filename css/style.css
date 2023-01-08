@@ -413,8 +413,8 @@ span {
    z-index:10000;
 }
 #loader.loaded {
-  -webkit-animation: byeShutter 2.4s forwards;
-  animation: byeShutter 2.4s forwards;
+  -webkit-animation: byeShutter 0.8s forwards;
+  animation: byeShutter 0.8s forwards;
 }
 .logo {
    position: absolute;
@@ -427,7 +427,7 @@ span {
    margin: auto;
    -webkit-animation: logo 0.8s forwards;
    animation: logo 0.8s forwards;
-   animation-delay: 0.2s;
+   animation-delay: 0s;
 }
 @keyframes byeShutter {
   70% {
@@ -439,7 +439,7 @@ span {
    z-index: -1;
 }
 }
-  @keyframes logo {
+@keyframes logo {
   0% {
    opacity: 1;
 }
