@@ -6,9 +6,9 @@ window.onload = ()=>{
 var _window = $(window),
     _header = $('.site-header'),
     heroBottom;
- 
+
 _window.on('scroll',function(){
-    heroBottom = $('.title-h1').height();
+    heroBottom = $('.container').height();
     if(_window.scrollTop() > heroBottom){
         _header.addClass('transform');   
 }
@@ -16,5 +16,5 @@ _window.on('scroll',function(){
         _header.removeClass('transform');   
 }
 });
- 
+
 _window.trigger('scroll');

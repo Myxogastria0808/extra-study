@@ -97,7 +97,7 @@ span {
 }
 @keyframes move-forever {
   0% {
-   transform: translate3d(-90px,0,0);
+    transform: translate3d(-90px,0,0);
 }
   100% { 
     transform: translate3d(85px,0,0);
@@ -401,54 +401,54 @@ span {
 
 
 .shutter{
-   width: 100%;
-   height: 100%;
-   position:fixed;
-   top:0;
-   left:0;
-   right:0;
-   bottom:0;
-   margin: auto;
-   background-color: var(--background-color);
-   z-index:10000;
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin: auto;
+  background-color: var(--background-color);
+  z-index:10000;
 }
 #loader.loaded {
   -webkit-animation: byeShutter 0.8s forwards;
   animation: byeShutter 0.8s forwards;
 }
 .logo {
-   position: absolute;
-   width: 90%;
-   max-width: 800px;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   margin: auto;
-   -webkit-animation: logo 0.8s forwards;
-   animation: logo 0.8s forwards;
-   animation-delay: 0s;
+  position: absolute;
+  width: 90%;
+  max-width: 800px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-animation: logo 0.8s forwards;
+  animation: logo 0.8s forwards;
+  animation-delay: 0s;
 }
 @keyframes byeShutter {
   70% {
-   opacity: 1;
+  opacity: 1;
 }
   100% {
-   display: none;
-   opacity: 0;
-   z-index: -1;
+  display: none;
+  opacity: 0;
+  z-index: -1;
 }
 }
 @keyframes logo {
   0% {
-   opacity: 1;
-}
+    opacity: 1;
+  }
   50% {
-   transform: rotate(0deg);     
-}
-   100% {
-   transform: scale(0.8);
- }
+    transform: rotate(0deg);     
+  }
+  100% {
+    transform: scale(0.8);
+  }
 }
 
 /*teacher*/
@@ -674,11 +674,31 @@ span.title_span {
   background-color: rgb(135, 179, 144);
   opacity: 0;
   transition: .3s;
+  margin-bottom: -4px;
 }
 .gnav__menu__item:hover::after {
+  margin-bottom: -4px;
   bottom: 0;
   opacity: 1;
   height: 2px;
+}
+
+.rubyposition_under{
+  display: inline-block;
+}
+.rubyposition_under ruby{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;  /* この指定は text-align-last を IE に対応させるために必要 */
+  text-align-last: center;
+}
+.PC_span ruby{
+  font-size: 20px;
+  text-align-last: center;
+}
+.mobile_span ruby{
+  font-size: 30px;
+  text-align-last: left;
 }
   /* .hero{
   max-height: 500px;
